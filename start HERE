@@ -1,0 +1,9 @@
+<!We'll start with this HERE. developers refer to this division as a hero block. Use this division to start things off.>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>I am John Doe</h1>
+    <p>And I'm a Photographer</p>
+    <button>Hire me</button>
+  </div>
+</div>
