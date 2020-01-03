@@ -1,5 +1,16 @@
 body, html {
-    height: 100%;
+    @charset "UTF-8";
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color: white;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
 }
 
 /* The hero image */
