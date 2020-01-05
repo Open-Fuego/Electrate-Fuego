@@ -7,4 +7,24 @@ You could do it the easy way like I once did: https://spark.adobe.com/page/umUY5
 
 In this doc, you will work through Gregory Ulmer's four discourses of family, entertainment, community, and schooling ((2002). Internet Invention From Literacy to Electracy.) Ulmer's theory of electracy helps makes sense of how we find/construct meaning and connect with others rhetorically in a media rich ecology. I hope you are excited to use this tool to create a document that will simultaneously help you process your journey and help orient you along the path on which you are headed in your becoming. I would like to give a shout-out to my research buddy Shauna Chung, who helped me develop the original Ulmerian framework we will be following in this document. Are you ready to get started?--> 
     
-To get started, you will need to fork this repository from GitHub if you haven't already. If you want to easily publish it on GitHub, I'll give you more information at the end of this document. But for right now, fork, and download the website to a zip file. Go ahead and put these files in a secure place (folder) where you will be able to find them and organize your other assests like images and pdf's, etcetera. You will also need a text editor like "brackets.io" or "notepad-plus-plus.org." Open the style.css and index.html documents in the text editor and we can get started building our own Electrate experience.
+Get started!
+
+1. Fork this repository.
+
+2. Download the website to a zip file. 
+
+3. Go ahead and put these files in a secure place (folder) where you will be able to find them and organize your other assests like images and pdf's, etcetera. 
+
+4. Download and open a text editor like "brackets.io" or "notepad-plus-plus.org." 
+
+5. Open the style.css and index.html documents from your computer.  
+
+6. Start reading the index.html in text editor and you can then get started building our own Electrate Fuego!
+
+7. Once you have modified and added your files, return to your repository and upload your files. Hit "Commit!." 
+
+8. To publish, go to the repository settings, scroll down, scroll down, until you see "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Electrate Fuego onbline. It's time to spread the fire! Congratulations. 
+
+
+
+
