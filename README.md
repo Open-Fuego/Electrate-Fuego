@@ -1,5 +1,5 @@
 # Electrate Fuego
-Abstract: This repository will allow the user to mix and match div. blocks to build a quick website similar to an Adobe Spark. https://spark.adobe.com...but with an electrate twist...
+Abstract: This repository will allow the user to mix and match div. blocks to build a quick website similar to an Adobe Spark. https://spark.adobe.com, but with an electrate twist...
 
 Hello maker! Welcome to the Electrate Fuego web design tutorial. I'm glad you found it--for this might be a really intersection on your way to becoming. I use this document in my Technical Communications classes at the University of Pittsburgh to teach my students a little bit about computer science. Just follow along and with comments like this, and you will make a really cool web doc. that not only introduces you to the other, but explains a little more about the discourse communities that have contributed to your arrival in this space, virtual and actual. 
 
