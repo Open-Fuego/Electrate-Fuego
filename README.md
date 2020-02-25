@@ -21,7 +21,7 @@ In this doc, you will work through Gregory Ulmer's four discourses of family, en
 
 6. Start reading the index.html in text editor and you'll find instructions on how to build your own Electrate Fuego!
 
-7. Once you have modified and added your files, return to your repository and upload your files. Hit "Commit!." 
+7. Once you have modified and added your files, return to your repository and upload (or push) your files. Hit "Commit!." 
 
 8. To publish, go to the repository settings, scroll down, scroll down, until you see "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Electrate Fuego online. It's time to spread the fire! Congratulations. 
 
