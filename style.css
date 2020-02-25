@@ -28,6 +28,16 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   font-size: 250%;
 }
 
+.hero-text h2 {   /* Copied from h6, but preserving hierarchies (no level jumps) */
+  display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 /* This is what controls that cool parallax scrolling effect. Change the image "feet.jpg" below to your image.*/
 /*You can always add more parlax assets on your web document, just follow the directions at the bottom of the index.html.*/
 .parallax-1 { 
