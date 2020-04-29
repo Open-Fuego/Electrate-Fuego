@@ -2,28 +2,42 @@
 <html lang="en">
 <head>
     
-<!--Hello, maker! Welcome to my Electrate Fuego web design tutorial. I'm glad you found it – for this might be a real intersection on your way to becoming. I (S.J. Quigley) use this document in my Technical Communications classes at the University of Pittsburgh to teach my students a little bit about computer science. Just follow along with comments like this one, and you will make a really cool web documemt that not only introduces you to the other, but explains a little more about the discourse communities that have contributed to your arrival in this space, virtual and actual. 
+<!--Hello, maker! Welcome to my Electrate Fuego web design tutorial. I'm glad you found it – for this might be a real intersection on your way to becoming. I (S.J. Quigley) use this document in my Technical Communications classes at the University of Pittsburgh to teach my students a little bit about computer science and something called "electracy." Just follow along with comments like this one, and you'll make a really cool web documemt that not only introduces you to the other people in our classes, but will help you process how different discourse communities in your life have contributed to your arrival in this space, virtual and actual, and also contribute to where you might be going. 
 
-You could do it the easy way like I once did: https://spark.adobe.com/page/umUY5ROHgANCl/ , or you can do a little more unconcealing... not just unconcealing who you are, but opening these tools that you use every day, but might not know how they function, yet prove so necessary to how you (re)present yourself and connect with others in virtual spaces. And this last bit is an important point! If we really want to be makers, if we really want to be creative, then we need to really understand our tools and how they work. So let's cut it all open – using "tmesis" as the Ancient Greeks would call it – lets "cut" and arrange, tweak, take away and augment... that's how we create! 
+In this doc, you will work through Gregory Ulmer's discourses of career, family, entertainment, community, and schooling (_Internet Invention From Literacy to Electracy_, 2002.) In Ulmer's text, he elides community and schooling into one category, but for our puposes I have separated them. Ulmer's theory of electracy helps makes sense of how we find/construct meaning and connect with others rhetorically in a media rich ecology. Ulmer uses analogy to define electracy, explaining that "electracy is to digital media what literacy is to print." 
 
-In this doc, you will work through Gregory Ulmer's four discourses of family, entertainment, community, and schooling (_Internet Invention From Literacy to Electracy_, 2002.) Ulmer's theory of electracy helps makes sense of how we find/construct meaning and connect with others rhetorically in a media rich ecology. I hope you are excited to use this tool to create a document that will simultaneously help you process your journey and help orient you along the path on which you are headed in your becoming. I would like to give a shout-out to my research buddy Shauna Chung, who helped me develop the original Ulmerian framework we will be following in this document. Are you ready to get started?--> 
+You could make this document the easy way--like I once did by using a program called Adobe Spark: https://spark.adobe.com/page/umUY5ROHgANCl/, or you can do a little more work to unconceal, opening up these tools that you use every day, but might not know how they function, yet prove so necessary to how you (re)present yourself and connect with others in virtual spaces. And this last bit is an important point! If we really want to be makers, if we really want to be creative, then we need to understand what our digital tools do, how they work, and consider the implications of their use. Through this process you will alos learn a little bit about computer literacy and computer science. Enough to allow you to build web texts and understand file management. 
+
+So let's cut this thing open – using "tmesis" as the Ancient Greeks would call it – lets "cut" and arrange, tweak, take away and augment...that's how we create! I hope you're excited to use this tool to create a document that will simultaneously help you process your journey and help orient you along the path on which you are headed in your becoming. Before we get going I would like to give a shout-out to my research buddy Shauna Chung, who helped me develop the original Ulmerian framework we will be following in this document. Are you ready to get started?--> 
     
- <!--To get started, you will need to fork my repository from GitHub if you haven't already. If you want to easily publish it on GitHub, I'll give you more information at the end of this document. But for right now, fork, and then download the website to a zip file (or clone it, if you know what that means). Go ahead and put these files in a secure place (folder) where you will be able to find them and organize your other assests like images, pdfs, etcetera. You will also need a text editor like "brackets.io" or "atom.io" or "notepad-plus-plus.org." Open the style.css and index.html documents in the text editor and we can get started building our own Electrate experience.--> 
+ <!--To get started, you will need to fork my repository from GitHub if you haven't already. If you want to easily publish it on GitHub, I'll give you more information at the end of this document. But for right now, fork, and then download the website to a zip file (or clone it, if you know what that means). Go ahead and put these files in a secure place (folder) where you will be able to find them and organize your other assests like images, pdfs, etcetera. You will also need a text editor like "brackets.io" or "atom.io" or "notepad-plus-plus.org." Open the style.css and index.html documents in the text editor and we can get started building our own electrate experience.--> 
 
-<!--BTW. You can leave these faded comments be, or delete them. They are but road signs, absent from the larger design-->
+<!--BTW. You can leave these hidden HTML text fields be, or delete them. They are but road signs, absent from the larger design-->
 
-<!--Go ahead and change the title of this HTML document below, from "Electrate Fuego" to whatever you want-->
+<!--First we will need to do some work in the head of the document. The head organizes important information needed to expalin to browsers how the website will work. Go ahead and change the title of this HTML document below, from "Electrate Fuego" to whatever you want it to be called. Your new text will appear in your browser tab-->
+    
 <title>Electrate Fuego</title>
     
-    <!--this other stuff below the title does important work to help tell different browsers what this page should look like on different screens-->  
+    <!--this next section of code does important work to help different browsers understand what this page should look like on the different kinds of screens.--> 
+    
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+     <!--this code tells the browser to link to the style.css file that controls the appearance of much of your content.--> 
+    
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+  
+  
+<!--The body of the document houses the content that a user usually sees on a website. We'll be spending most of our time in this section.-->
     
 <body>
        
-<!-- We'll need to do some more work in this section, but to do so, we will need to make some changes on your style.css file. Developers refer to this division as a "Hero Block." You don't need to do anything on this html page, but you'll need to change the background image on the style.css page. Place a .jpg or .png in the same file folder (directory) as this project (hint: simplify the name). Change the other relevant information, especially if you're not John en Fuego or not majoring in "electracy"... whatever that is?-->
+<!-- We'll need to do some more work in this section, but to do so, we'll need to make some changes on your style.css file. Developers refer to this division as a "Hero Block," but we will refer to it as a "Wide Image."  Think carefully about the image you select and how it might serve a sybolic function in your life. Ulmer refers to these kinds of symbolic images as "wide images" in that they often repeat over and over in our lifetime. We will similarly repeat this image at the end of your Electrate Infuego composition to establish a motif in this web document.  
+
+Place a .jpg or .png in the same file folder as this project (hint: simplify the name). You don't need to do anything on this html page, but you'll need to change the background image name on the style.css page to match you image asset.
+
+Now, change the other relevant information in this section, especially if you're not John en Fuego or not majoring in "electracy"-->
 
 <div class="hero-image">
   <div class="hero-text">
@@ -32,15 +46,23 @@ In this doc, you will work through Gregory Ulmer's four discourses of family, en
   </div>
 </div>
 
-<!--in this next section we will explain a little more about your family (what does family means to you? Who are the people that influenced you on this path along which you now stand)--> 
-
+      <!--In our first exploration of discourse, we're going to think about the wider characteristics or themes of our field or future career. In academia, we do a lot of work narrowing our interest to arrive at a career or profession, often reducing our field to a level of operation or an act. Instead, I would like you to think more broadly about the "wider themes" you associate with your field or future career and its larger significance in improving our world. Yes--improving the world. Thinking back, where do you see exposure to those same "wider themes" in your own life? Those ah-ha moments, lessons, examples, tools, passions, or qualities that suggested this career path to you? Replace the content between <h2> and </h2> that begins with "Lorem ipsum."-->
+    
+     <div class="par-centertext">
+  <h1>Field or Career</h1>
+    
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
+</div>
+    
+     
+<!--in this next section you will explain a little more about your family (what does family means to you? Who are the people that influenced you on this path along which you now stand).--> 
     
 <div class="par-centertext">
-  <h1>Family</h1>
+  <h1>Family and Home</h1>
     </div>
     
-<!--Bring the fun. Download those beautiful, meaningful "family" photos (only you can define family). Add the photos to your project folder, making sure the files end in .jpg or .png and replace/add to the names on the grid below. You can add more if you wish, or subtract... see what happens – you have to be playful to find the purpose of things.-->
-   
+<!--We will begin this section with a photo grid. Add those beautiful, meaningful "family" and "home" photos (only you can define family) to your project folder, making sure the files end in .jpg or .png and replace/add the names of your assets to the grid below. You can add more photos if you wish, or subtract... see what happens – you have to be playful to find the purpose of things. You may need to adjust the size of your assets to produce the effect you desire. Resizing local files is one way to control the size of images on a website.-->
+    
 <div class="row"> 
   <div class="column">
     <img src="pgrid1.jpg" alt="decribe the image HERE for accessibility purposes">
@@ -56,72 +78,77 @@ In this doc, you will work through Gregory Ulmer's four discourses of family, en
   </div>
 </div>
    
-    
-<!--Time to write. Flesh it out! Define family, qualify it, explicate it telling us why these people are important, and how they contributed to how you got here and where you are going. Replace the content between <h2> and </h2> that says "Lorem ipsum" etc --> 
+<!--Time to write. Flesh it out! Define family, qualify it, explicate it telling us why these people are important, and how they contributed to how you got here and where you are going. What about "home." What  does that mean to you? In what ways is it significant in determining where your are going? Replace the content between <h2> and </h2> that says "Lorem ipsum."--> 
     
 <div class="par-centertext">
   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
 </div>
   
-<div>
-    <!--Replace the image here. You can also control image width and height %.-->
+     <!--Replace the image here. You can also control image width and height %. This is the second way we can control the size of images on our website.-->
     
- <img src="feet.jpg" alt="Paris" class="center-small-image" alt="my feet in water" style="max-width:50%; max-height:50%;">
+<div> 
+ <img src="feet2.jpg" class="center-small-image" alt="my feet in water" style="max-width:50%; max-height:50%;">
     </div>
         
-<!--Now we are moving into the kinds of media that contributes to your everyday discourse. This might sound weird, but Gregory Ulmer, who we discussed above, says that media has actually contributed a great deal to who you are as a person and how you language yourself. So, let's take some time to explore this discourse area. You will have some opportunities to add video content or other content. You might add an image (see the bottom of this sheet for directions on how to add elements) or perhaps add a photo grid like the one you did for "Family." Experiment. You can't break this thing! Right? Control Z. Control Z. Control Z... -->
+<!--Now we are moving into the kinds of media that contributes to your everyday discourse. This might sound weird, but Ulmer argues that media has actually contributed a great deal to who you are as a person, how you language yourself, and even how you move through the world and interact with others. So, let's take some time to explore this discourse area. You have the opportunity to add video content or other significant media content. You might also add images to this section (see the bottom of this sheet for directions on how to add elements) perhaps adding a photo grid like the one you did for the "Family" section. Experiment. You can't break this thing, right? Control Z. Control Z. Control Z... -->
 
 <div class="par-centertext">
   <h1>Entertainment</h1>
 </div>
+ 
+    <!--find a YouTube video that has some significance in your life. Click "share," and copy and paste the embed link and paste it below-->
     
     <div class="centertext">
-
-<!--find a YouTube video you like, click share, and cut and paste an embed link and paste it below-->
-        
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HL3U44It_No" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     
-<!--Time to process. Replace that "Lorem ipsum" writ by Cicero with something a little more meaningful. That's a joke. While "Lorem ipsum" was hacked out of Cicero's "De finibus bonorum et malorum," developers made it non-sensical. So while you could never write like Cicero, you could always do better than "Lorem ipsum." -->  
+<!--Time to process. How do you use media? What role do certain kinds of media play in your life? How does media serve a social function? In what way might you be "recreating" or "remaking" media in your everyday life? 
+
+FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bonorum et malorum," developers made it non-sensical. So while you will probably never write as well as Cicero, you can always improve upon "Lorem ipsum." -->  
     
 <div class="par-centertext">
   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
 </div>
 
-<!--use this text to process your community(-ies)--> 
-<!--between this div and the previous, you will want to add a div element, probably an image (see the bottom of this html page for instructions) --> 
+    <!--Between these divisions, you may want to add a new div element like an image (see the bottom of this html page for instructions) --> 
+    
+<!--We will use this next section to process your community(-ies)--> 
 
 <div class="par-centertext">
   <h1>Community</h1>
     </div>
    
+    <!--So what exactly is your community: is it actual? virtual? Where do find your ground, or at least, where do you drop anchor, you drifter, you? While we often think of communities as neighborhoods and clubs and a group of colleagues or friends, you might find community across the frontiers of the dead, and perhaps even with those who have never lived. I'll let you explain. -->
     
     <div class="par-centertext">
-
-<!--So what exactly is your community: Is it actual? virtual? Where do find your ground, or at least, where do you drop anchor, you drifter, you? While we often think of communities as neighborhoods and clubs and colleagues, you might find community across the frontiers of the living, the dead, and perhaps those who have never lived. I'll let you explain. -->
-        
-  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2> 
-        
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
   </div>
     
     <div>
- <img src="feet.jpg" alt="Paris" class="center-large-image" alt="my feet in water" style="max-width:100%;max-height:100%;">
+ <img src="feet3.jpg" class="center-large-image" alt="my feet in water" style="max-width:100%;max-height:100%;">
     </div>
     
-<!--use this text to add content about your schooling background--> 
+<!-- In our final discourse section, we will process the role schooling has played in our lives. -->
 
-<div class="par-centertext">
-  <h1>School</h1>
+<div class="par-centertext"> 
+    <h1>School</h1>
 </div>
     
+<!--To change the image for this wide screen paralax scroll, you will need change the file name in your style.css to match an image in your project folder. Look for ".paralax1" on your style.css sheet-->
+  
     <div class="parallax-1"></div>
     
-<!--like it or not, your schooling, formal and informal, has been another factor that has brought you to, prepared you for this moment. Let's think through these systems, expectations, and outcomes. And let's also think a little about futurity... where is this learning, formal and informal – this unconcealing – taking you? -->
+<!--Like it or not, your schooling, formal and informal, for better or for worse, has been another factor that has brought you here and prepared you for this moment. Let's think through these systems, expectations, and outcomes. And let's also think a little about futurity... where is this learning, formal and informal – this unconcealing – taking you? -->
     
     <div class="par-centertext">   
   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
   </div>
     
+<!--The final step in our process will be to ensure that a smaller version of our "hero image," what Ulmer would refer to as our "wide image," repeats at the bottom of our document to better reinforce this motif.  -->
+    
+        <div>
+ <img src="feet.jpg" class="center-large-image" alt="Feet: My Wide Image" style="max-width:25%;max-height:25%;">
+    </div>
     
 <div class="centertext">
     
@@ -136,7 +163,7 @@ In this doc, you will work through Gregory Ulmer's four discourses of family, en
 <!--Anticopyright. Peace and love only, S.J. Quigley, University of Pittsburgh-->
 
 <!--
-Looking to add components? You have come to the right place.
+Looking to add components? You have come to the right place. Copy and paste the code into your body.
 
 ***Add an image. 
 To add an image, all you need to do is add the HTML, the CSS style has aleady been set. Just drop the following code between other <div></div> elements...and you will need to replace the stinky feet.jpg. 
@@ -170,12 +197,13 @@ To add an image, all you need to do is add the HTML, the CSS style has aleady be
   </div>
 </div>
 
+
 -->
 
 <!--
-Looking to publish this online? Here is what you need to do.
+Looking to publish this in GitHub? Here is what you need to do.
 
-Go back to your forked repository in GitHub. Click upload, and select/drag and drop all of you files... all of them, index.html. style.html, readme, and your images. Click commit. This will replace/add all essential files to make your Electrate Fuego. If you want to delete any of my stinky feet.jpg, be my guest. Great, now your Electrate Fuego is where it needs to be. Now go to settings and click it. This will open up myriad functions. The important one... scroll, scroll down to "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Electrate Fuego online. It's time to spread the fire!
+Go back to your forked repository in GitHub or create a new repository. Click upload, and select/drag and drop all of you files... all of them, index.html. style.html, readme, and your image assets. Click commit. This will replace/add all essential files to make your Electrate Fuego. Great, now your Electrate Fuego files are where it needs to be. Now go to your repository "settings." Scroll down to "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Electrate Fuego online. You will find your URL now available to access in this section. Copy and Paste. And now it's time to spread the fire!
 -->
 
 
