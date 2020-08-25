@@ -13,21 +13,31 @@ So let's cut this thing open – using "tmesis" as the Ancient Greeks would call
     
 ## Get started!
 
-1. Fork this repository.
+Video: : https://sjquigley.github.io/Steve-Electrate-Fuego/
 
-2. Download the website to a zip file (or clone it, if you know what that means).
+Sample: https://sjquigley.github.io/Steve-Electrate-Fuego/
 
-3. Go ahead and put these files in a secure place (folder on your computer) where you will be able to find them and organize your other assets like images and etcetera. 
+
+1. Create an GitHub account. 
+
+2. Go to repository Electrate Fuego repository: https://github.com/sjquigley/Electrate-Fuego 
+
+3. Click "Code": Download ZIP to local computer. 
 
 4. Download and/or open a text editor like [brackets.io](https://brackets.io), [atom.io](https://atom.io), or [notepad-plus-plus.org](notepad-plus-plus.org). 
 
-5. In that text editor, open the style.css and index.html documents from your computer.  
+5. Open the index file from the downloaded files using brackets.
 
-6. Start reading the index.html in text editor and you'll find instructions (Hidden text fields) explaining how to build your own Electrate Fuego!
+6. Add/replace/test content. 
 
-7. Once you have modified and added your files, return to your repository (or create a new one) and upload (or push) your files. Hit "Commit!." 
+7. Return to GitHub. Click: Create New Repository called "Your Name"
 
-8. To publish, go to the repository settings, scroll down, scroll down, until you see "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Electrate Fuego online. Look for the URL. And now it's time to spread the fire! Congratulations! 
+8. Upload/commit changes to your repository called "Your Name". 
+
+9. Go to repository settings, change Github pages to "publish master branch."  
+
+10. This will provide you with a published GitHub URL. Paste that URL link in this discussion file. 
+
 
 
 
