@@ -36,7 +36,7 @@ Sample: https://sjquigley.github.io/Steve-Electrate-Fuego/
 
 9. Go to repository settings, change Github pages to "publish master branch."  
 
-10. This will provide you with a published GitHub URL. Paste that URL link in this discussion file. 
+10. This will provide you with a published GitHub URL. 
 
 
 
