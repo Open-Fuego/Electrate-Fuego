@@ -18,7 +18,7 @@ Video: : https://sjquigley.github.io/Steve-Electrate-Fuego/
 Sample: https://sjquigley.github.io/Steve-Electrate-Fuego/
 
 
-1. Create an GitHub account. 
+1. Create a GitHub account. 
 
 2. Go to repository Electrate Fuego repository: https://github.com/sjquigley/Electrate-Fuego 
 
