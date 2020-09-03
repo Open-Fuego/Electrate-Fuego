@@ -13,7 +13,7 @@ So let's cut this thing open – using "tmesis" as the Ancient Greeks would call
     
 ## Get started!
 
-Video: : https://sjquigley.github.io/Steve-Electrate-Fuego/
+Instructional Video: : https://www.youtube.com/watch?v=drINeC4G40A
 
 Sample: https://sjquigley.github.io/Steve-Electrate-Fuego/
 
