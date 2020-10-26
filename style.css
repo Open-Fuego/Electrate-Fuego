@@ -5,9 +5,9 @@ body, html {
 }
 
 .hero-image {
-  /* This is your "hero image" or "wide image." You will need to change feet.jpg to match your asset*/
+  /* This is your "hero image" or "wide image." You will need to change hero.jpg to match your asset*/
   
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("feet.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -40,10 +40,10 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
     font-weight: bold;
 }
 
-/* This code controls that cool parallax image and scrolling effect. Change the image "feet4.jpg" below to match your asset.*/
+/* This code controls that cool parallax image and scrolling effect. Change the image "feet3.jpg" below to match your asset.*/
 /*You can always add more parllax assets on your web document, just follow the directions at the bottom of the index.html.*/
 .parallax-1 { 
-  background-image: url("feet4.jpg");
+  background-image: url("feet3.jpg");
 
   /* Set a specific height */
   height: 500px; 
@@ -53,41 +53,6 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-
-/* This section of css. helps organize images to position and center the image to scale nicely on all screens */
-
-.center-small-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-    
-.center-large-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-
-/*this css. element centers text elements*/
-
-.centertext {
-  text-align: center;
-    
-}
-
-/* This css. section controls the paragraph chunks*/
-
-.par-centertext {
-  margin: auto;
-  width: 50%;
-  padding: 100px;
-    font-size: 125%; 
-
 }
 
 
@@ -118,10 +83,44 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   .column {
     flex: 50%;
     max-width: 50%;
+}   
+}
+
+/* Preset Image Controls
+
+This section of css. helps organize images to position and center the image to scale nicely on all screens */
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
 
+
+    /* - Preset Text Block Controls- 
+this css. element centers text elements*/
+
+
+/* This css. section controls the paragraph chunks*/
+
+@media screen and (min-width: 800px) {
+.textblock {
+  margin: auto;
+  width: 50%;
+  padding: 100px;
+    font-size: 125%; 
+}
+}
+    
+@media screen and (max-width: 800px) {
+  .textblock {
+    margin: auto;
+    padding: 20px;    
+}
+}
 
 
     
