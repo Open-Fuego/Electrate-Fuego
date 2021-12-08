@@ -21,7 +21,7 @@ See [My Demo](https://sjquigley.github.io/Steve-Electrate-Fuego/)
 
 4. For Mac, Windows, and Linux, download and/or open a code editor like [atom.io](https://atom.io) or any code editor of your choice. If you use a Chromebook O.S., we recommend Code Pad or Caret. You will find additional information below about optimizing your code editor to work with HTML and CSS. 
 
-5. Use the code editor to open the index.html and style.css webtext from your project folder.  
+5. Use the code editor to open the index.html and style.css files from your project folder.  
 
 6. Start working with code by reading through the index.html where you'll find instructions on how to build your own web text! 
 
