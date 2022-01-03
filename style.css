@@ -154,7 +154,7 @@ This code controls that cool parallax image and scrolling effect. Change the ima
 
 
 .parallax {
-    background-image: url("feet1.jpg");
+    background-image: url("fuego.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -247,7 +247,7 @@ this CSS element centers text elements*/
     padding-bottom: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 14pt;
+    font-size: 12pt;
     text-align: center;
   }
 
