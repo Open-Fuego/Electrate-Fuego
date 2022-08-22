@@ -19,7 +19,7 @@ See [My Demo](https://sjquigley.github.io/Steve-Electrate-Fuego/)
 
 3. Find this folder in your downloads. Move this folder to a secure place. You will return to this folder to manage your scripts and other assets like images, pdfs, etcetera. 
 
-4. For Mac, Windows, and Linux, download and/or open a code editor like [atom.io](https://atom.io) or any code editor of your choice. If you use a Chromebook O.S., we recommend Code Pad or Caret. You will find additional information below about optimizing your code editor to work with HTML and CSS. 
+4. For Mac, Windows, and Linux, download and/or open a code editor like [http://atom.io](https://atom.io) or any code editor of your choice. If you use a Chromebook O.S., we recommend Code Pad or Caret. You will find additional information below about optimizing your code editor to work with HTML and CSS. 
 
 5. Use the code editor to open the index.html and style.css files from your project folder.  
 
@@ -27,9 +27,9 @@ See [My Demo](https://sjquigley.github.io/Steve-Electrate-Fuego/)
 
 7. Once you have modified and added your files to your project file, you will want to publish to the web. GitHub provides a good solution for "free." Create a GitHub account, then create a new repository for this webtext. Click "uploading an existing file," (push) your files into this repository. You'll need ALL of your assets to make your webtext function properly. Upload assets, then click "Commit changes." 
 
-8. Now go to your repository "settings." Scroll down to "GitHub Pages" in the left-hand menu. Change the source setting from "none" to "main." Click "Save"
+8. Now go to your repository "settings." Scroll down to "GitHub Pages" in the left-hand menu. Change the source setting from "none" to "main" "/root" and then Click "Save"
 
-9. This will provide you with a published GitHub URL.
+9. GitHub will provide you with a published GitHub URL. (This process may take up to five minutes.)
 
 10. Test the URL in a browser. Magic, no? Actually, it's computer science.  
 
