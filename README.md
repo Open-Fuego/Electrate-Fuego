@@ -48,7 +48,7 @@ Setting up Atom for Windows and CodePad for Chromebooks (Our recommended code ed
 1. Download "**[Atom](https://atom.io)**"
 2. Add HTML Preview 
 	- from the dropdown menu, select **Atom>Preferences>Install**
-	- In the search bar type "**HTML-Preview**." 
+	- In the search bar type "**html-preview**." 
 	- Select the package built by "**HARMSK**." Click "**Install**."
 1. Adjust text wrapping 
 	 -	from the dropdown menu, select **View>Toggle Soft Wrap** (this will force lines of code to conform to your viewer tab.)
@@ -57,7 +57,7 @@ Setting up Atom for Windows and CodePad for Chromebooks (Our recommended code ed
 
 1. Download "**[Atom](https://atom.io)**" 
 1. Add HTML Preview - from the dropdown menu, select **File>Settings.** In the tab that loads select **+Install** 
-1. In the search bar type "**HTML-Preview**." 
+1. In the search bar type "**html-preview**." 
 1. Select the package built by "**HARMSK**." Click "**Install**."
 1. Adjust text wrapping - from the dropdown menu, select **View>Toggle Soft Wrap** (this will force lines of code to conform to your viewer tab.)
 
