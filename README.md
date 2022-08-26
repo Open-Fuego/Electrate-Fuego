@@ -8,12 +8,12 @@ Before we get going, I would like to give a shout-out to my research buddy Shaun
 
 Peace and love only, Stephen Quigley, University of Pittsburgh 2020 
 
-See [My Demo](https://sjquigley.github.io/Steve-Electrate-Fuego/) 
+
     
     
 ## Get started!
 
-1. Go to [the repository](https://github.com/Open-Fuego/Electrate-Fuego)
+1. Go to the [repository](https://github.com/Open-Fuego/Electrate-Fuego)
 
 2. Click the green "Code" button, and then click "Download ZIP" to your local computer. 
 
@@ -29,7 +29,7 @@ See [My Demo](https://sjquigley.github.io/Steve-Electrate-Fuego/)
 
 8. Now go to your repository "settings." Scroll down to "GitHub Pages" in the left-hand menu. Change the source setting from "none" to "main" "/root" and then Click "Save"
 
-9. GitHub will provide you with a published GitHub URL. (This process may take up to five minutes.)
+9. This will provide you with a published GitHub URL. (This process may take up to five minutes.)
 
 10. Test the URL in a browser. Magic, no? Actually, it's computer science.  
 
@@ -40,13 +40,13 @@ Check out our other [Open Fuego Coding Tools](https://open-fuego.github.io/Open-
 
 ## Text Editor Optimization 
 
-Setting up Atom for Windows and CodePad for Chromebooks 
+Setting up Atom for Windows and CodePad for Chromebooks (Our recommended code editors) 
 
 ### Atom (Mac)
 
 
-1. Download "**Atom**" from **Atom.io**
-1. Add HTML Preview 
+1. Download "**[Atom](https://atom.io)**"
+2. Add HTML Preview 
 	- from the dropdown menu, select **Atom>Preferences>Install**
 	- In the search bar type "**HTML Preview**." 
 	- Select the package built by "**HARMSK**." Click "**Install**."
@@ -55,7 +55,7 @@ Setting up Atom for Windows and CodePad for Chromebooks
 
 ### Atom (Windows)
 
-1. Download "**Atom**" from **Atom.io**
+1. Download "**[Atom](https://atom.io)**" 
 1. Add HTML Preview - from the dropdown menu, select **File>Settings.** In the tab that loads select **+Install** 
 1. In the search bar type "**HTML Preview**." 
 1. Select the package built by "**HARMSK**." Click "**Install**."
@@ -63,9 +63,13 @@ Setting up Atom for Windows and CodePad for Chromebooks
 
 ### Code Pad (Chromebook)
 
-1. Download "**Code Pad Text Editor**" from Chrome Web Store. 
+1. Download "**[Code Pad Text Editor](https://chrome.google.com/webstore/detail/code-pad-text-editor/adaepfiocmagdimjecpifghcgfjlfmkh?hl=en-GB)**" from Chrome Web Store. 
 1. From the dropdown menu, select **Editor>IDE Preferences**
 1. Toggle "**Word wrap limit**" to the middle value (this will force lines of code to conform to your viewer tab.)<p>&nbsp;</p>
+
+
+
+
 
 
 
